@@ -8,18 +8,23 @@
     <link href="img/favicon.ico" rel="icon" type="image/x-icon">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <!-- Script for arrows -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body class="site">
+    <div class="stickynav">
     <!-- Navigation bar -->
-    <div class="navbar">
-        <h1 class="name">Marko Cirkovic</h1>
-        <nav>
-            <a href="index.html">Home</a> |
+        <div class="navbar">
+            <h1 class="logo">M</h1>
+            <nav>
+            <a href="index.html" class="active">Home</a> |
             <a href="pages/contact.html">Contact</a> |
             <a href="pages/projects.html">Projects</a> |
             <a href="pages/blog.html">Blog</a>
-        </nav>
+            </nav>
+        </div>
     </div>
     <!-- Site content -->
     <main class="site-content">
@@ -28,17 +33,33 @@
             <div id="intro-name">Hello, I'm Marko.</div>
             <div id="intro-title">I'm a web developer.</div>
         </div>
-        <!-- Content container -->
-        <div class="content-container">
-            <h3>About me:</h3>
+        <!-- Page down arrow-->
+        <div class="arrow">
+            <i class='fas fa-angle-down'></i>
         </div>
+
+        <div class="container">
+            <!-- Content container -->
+            <div class="content-container">
+                <h2 class="title">about me</h2>
+                <div class="text">I am currently a warehouse operator at ALDI. Moving boxes pallet to pallet isn't my biggest passion so I decided to continue to learn coding! 😎</div>
+            </div>
+            <div class="content-container">
+                <h3 class="title">passions</h3>
+                <div class="text">My interest in coding stems from my enthusiasm of technology, but I also really admire art, film and music (how could you not 🙄). Some of my not-so-typical interests include: skateboarding, photography & videography!</div>
+            </div>
+            <div class="content-container">
+                <h3 class="title">traits</h3>
+                <div class="text">Ever since I can remember, I've been a logical thinker. My family agrees that it does hinder me, say in terms of my spirituality, however I believe it's a great trait, particularly in the IT industry.</div>
+            </div>
+        </div>  
     </main>
     <!-- Footer -->
     <div class="footer">
         <footer>
             <a href="https://github.com/markomate"><img src="img/github.png" alt="GitHub" style="width:28px;height:28px;"></a>
             <a href="https://www.linkedin.com/in/marko-cirkovic-31a70a1ba/"><img src="img/linkedin.png" alt="Linkedin" style="width:28px;height:28px;"></a>
-            <a href = "mailto: marko.cirkovicc@gmail.com"><img src="img/email.png" alt="email" style="width:32px;height:32px;"></a>
+            <a href="mailto: marko.cirkovicc@gmail.com"><img src="img/email.png" alt="email" style="width:32px;height:32px;"></a>
         </footer>
     </div>
 
