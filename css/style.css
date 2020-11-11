@@ -20,15 +20,6 @@ img {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: lightgrey;
-}
-
 .stickynav {
     overflow: hidden;
     position: fixed;
@@ -57,6 +48,15 @@ a:hover {
     font-size: 8px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: lightgrey;
+}
+
 .navbar a.active {
     text-decoration: underline;
 }
@@ -72,9 +72,22 @@ a:hover {
     width: 100%;
 }
 
+.carousel-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+}
 
 .title {
     padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: #282828;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
 }
 
 .text {
@@ -122,6 +135,18 @@ footer {
     border-radius: 50%;
 }
 
+#about-photo {
+    padding-top: 75px;
+}
+
+#blog-verticle {
+    max-width: 500px;
+}
+
+#blog-horizontal {
+    max-width: 500px;
+}
+
 .arrow {
     display: flex;
     justify-content: center;
@@ -133,11 +158,23 @@ footer {
     font-size: 32px;
 }
 
+#about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#about-title {
+    display: flex;
+    align-items: flex-end;
+}
+
 @media screen and (max-width: 812px) {
     .navbar {
         justify-content: space-evenly;
-        padding-top: 10px;
-        padding-bottom: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .navbar nav {
@@ -147,4 +184,6 @@ footer {
     .navbar h1 {
       display: none;
     }
+
+
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Marko's Portfolio</title>
@@ -14,10 +14,10 @@
 </head>
 
 <body class="site">
-    <div class="stickynav">
     <!-- Navigation bar -->
+    <div class="stickynav">
         <div class="navbar">
-            <h1 class="logo">M</h1>
+            <h1 class="logo"><a href="index.html">M</a></h1>
             <nav>
             <a href="index.html" class="active">Home</a> |
             <a href="pages/contact.html">Contact</a> |
@@ -41,22 +41,33 @@
         <div class="container">
             <!-- Content container -->
             <div class="content-container">
-                <img id="photo-me" src="img/me.png" alt="me">
+                <div id="about">
+                    <div id="about-photo">
+                        <img id="photo-me" src="img/me.png" alt="me">
+                    </div>
+                <div id="about-title">
+                    <h1 class="title">about</h1>
+                </div>
+                <p>Moving boxes isn't my biggest passion in life so I decided to combine my love for technology with my career. 
+                Solving problems is 
+                I've always been a Westie, born in Perth and raised in Western Sydney. When I'm not on my computer I'm either at the skate park
+                </p>
+                </div>
             </div>
+            <!-- Pixel footer -->
             <div class="pixels">
-            <img id="pixels" src="img/pixels.png" alt="pixels">
+                <img id="pixels" src="img/pixels.png" alt="pixels">
             </div>
         </div>  
     </main>
     <!-- Footer -->
     <div class="footer">
         <footer>
+            <a href="mailto: marko.cirkovicc@gmail.com"><img src="img/email-white.png" alt="email" style="width:28px;height:28px;"></a>
             <a href="https://github.com/markomate"><img src="img/github-white.png" alt="GitHub" style="width:28px;height:28px;"></a>
             <a href="https://www.linkedin.com/in/marko-cirkovic-31a70a1ba/"><img src="img/linkedin-white.png" alt="Linkedin" style="width:28px;height:28px;"></a>
-            <a href="mailto: marko.cirkovicc@gmail.com"><img src="img/email-white.png" alt="email" style="width:28px;height:28px;"></a>
         </footer>
     </div>
-
 </body>
 
 </html>

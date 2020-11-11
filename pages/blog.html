@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Marko's Blog</title>
@@ -13,31 +13,54 @@
 
 <body class="site">
     <!-- Navigation bar -->
-    <div class="navbar">
-        <h1 class="logo">M</h1>
-        <nav>
-            <a href="../index.html">Home</a> |
+    <div class="stickynav">
+        <div class="navbar">
+            <h1 class="logo"><a href="../index.html">M</a></h1>
+            <nav>
+            <a href="../index.html" class="active">Home</a> |
             <a href="contact.html">Contact</a> |
             <a href="projects.html">Projects</a> |
-            <a href="blog.html" class="active">Blog</a>
-        </nav>
+            <a href="blog.html">Blog</a>
+            </nav>
+        </div>
     </div>
     <!-- Site content -->
     <main class="site-content">
-        <!-- Page down arrow-->
-        <p><i class="arrow"></i></p>
-        <!-- Content container -->
-        <div class="content-container">
-            <h3>Blog post 1:</h3>
+        <div class="container">
+            <!-- Content container -->
+            <div class="content-container">
+                <div class="header-title">
+                    <h1 class="title">Blog</h1>
+                </div>
+                <div class="blog-post">
+                    <img id="blog-verticle" src="../img/Korea.jpg" alt="Korea">
+                </div>
+                <div class="blog-post">
+                    <img id="blog-horizontal" src="../img/Serbia.JPG" alt="Korea">
+                </div>
+                <div class="blog-post">
+                    <img id="blog-verticle" src="../img/Czech.jpg" alt="Korea">
+                </div>
+                <div class="blog-post">
+                    <img id="blog-horizontal" src="../img/Japan.jpg" alt="Korea">
+                </div>
+                <div class="blog-post">
+                    <img id="blog-horizontal" src="../img/Butterfly.jpg" alt="Korea">
+                </div>
+            </div>
+
+            <!-- Pixel footer -->
+            <div class="pixels">
+                <img id="pixels" src="../img/pixels.png" alt="pixels">
+            </div>    
         </div>
-        <img id="pixels" src="../img/pixels.png" alt="pixels">
     </main>
     <!-- Footer -->
     <div class="footer">
         <footer>
+            <a href="mailto: marko.cirkovicc@gmail.com"><img src="../img/email-white.png" alt="email" style="width:28px;height:28px;"></a>
             <a href="https://github.com/markomate"><img src="../img/github-white.png" alt="GitHub" style="width:28px;height:28px;"></a>
             <a href="https://www.linkedin.com/in/marko-cirkovic-31a70a1ba/"><img src="../img/linkedin-white.png" alt="Linkedin" style="width:28px;height:28px;"></a>
-            <a href="mailto: marko.cirkovicc@gmail.com"><img src="../img/email-white.png" alt="email" style="width:32px;height:32px;"></a>
         </footer>
     </div>
 
