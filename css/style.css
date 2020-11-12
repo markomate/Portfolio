@@ -157,6 +157,10 @@ footer img {
   padding-top: 75px;
 }
 
+#about-text {
+  padding-top: 20px;
+}
+
 #blog-verticle {
   max-width: 400px;
 }
@@ -269,8 +273,8 @@ footer img {
   .navbar {
     justify-content: center;
     align-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .navbar nav {
@@ -307,6 +311,10 @@ footer img {
     height: 48px;
     padding-left: 20px;
   }
+}
+
+.title {
+  text-align: center;
 }
 
 @media screen and (max-width: 1025px) {
