@@ -1,308 +1,315 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    background-color: #282828;
-    color: black;   
+  margin: 0;
+  background-color: #282828;
+  color: black;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .site-content {
-    flex: 1;
-    font-family: 'Roboto', sans-serif;
+  flex: 1;
+  font-family: "Roboto", sans-serif;
 }
 
 .stickynav {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .navbar {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #282828;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    text-decoration-color: white;
-    color: white;
+  font-family: "Press Start 2P", cursive;
+  background-color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-decoration-color: white;
+  color: white;
 }
 
 .navbar h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .navbar nav {
-    font-size: 8px;
+  font-size: 8px;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar a:hover {
-    color: grey;
+  color: grey;
 }
 
 .navbar a.active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .content-container {
-    background-image: linear-gradient(to bottom, rgba(105,105,105,0), rgb(255,255,255,1));
-    width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(105, 105, 105, 0),
+    rgb(255, 255, 255, 1)
+  );
+  width: 100%;
 }
 
 .carousel-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
-    padding: 20px;
-    color: #282828;
-    font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  color: #282828;
+  font-family: "Press Start 2P", cursive;
 }
 
 .header-title {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: "Press Start 2P", cursive;
 }
 
 .text {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
 .pixels {
-    width: 100%;
-    margin-top: -15px;
+  width: 100%;
+  margin-top: -15px;
 }
 
 .footer {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .footer a {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 footer {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 footer img {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
 }
 
 .intro {
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: white;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: white;
 }
 
 .links-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .link {
-    width: 128px;
-    height: 128px;
-    padding: 20px;
+  width: 128px;
+  height: 128px;
+  padding: 20px;
 }
 
 #intro-name {
-    padding-right: 10px;
-    font-weight: bold;
+  padding-right: 10px;
+  font-weight: bold;
 }
 
 #photo-me {
-    width: 400px;
-    border-radius: 50%;
+  width: 400px;
+  border-radius: 50%;
 }
 
 #about-photo {
-    padding-top: 75px;
+  padding-top: 75px;
 }
 
 #blog-verticle {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 #blog-horizontal {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .arrow {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.arrow a {
-    color: white;
-    text-decoration: none;
+.arrow-down a {
+  color: white;
+  text-decoration: none;
+}
+
+.arrow-up a {
+  color: #282828;
+  text-decoration: none;
 }
 
 .arrow a:hover {
-    color: grey;
+  color: grey;
 }
 
 .fas {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 #about {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 #about-title {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 #blog-title {
-    color: white;
-    padding-top: 20px;
+  color: white;
+  padding-top: 20px;
 }
 
 .blog-post1 {
-    display: flex;
-    padding-bottom: 30px;
+  display: flex;
+  padding-bottom: 30px;
 }
 
 .blog-post2 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 30px;
 }
 
 .post-title {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
 }
 
 .post-title h1 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .post-author {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 25px;
-    font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  font-size: 10px;
 }
 
 .blog-post2 .post-title {
-    justify-content: flex-start;
-    padding-left: 15px;
+  justify-content: flex-start;
+  padding-left: 15px;
 }
 
 .blog-post2 .post-author {
-    justify-content: flex-start;
-    padding-left: 15px;
+  justify-content: flex-start;
+  padding-left: 15px;
 }
 
 .post-text {
-    padding: 10px;
+  padding: 10px;
 }
 
 .post-img {
-    padding: 10px;
+  padding: 10px;
 }
 
 .post-content .arrow {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .project-carousel {
-    width: 80%;
+  width: 80%;
 }
 
 @media screen and (max-width: 812px) {
-    html {
-        min-width: 600px;
-    }
-    
-    .navbar {
-        justify-content: center;
-        align-content: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
+  html {
+    min-width: 600px;
+  }
 
-    .navbar nav {
-        font-size: 16px;
-        justify-content: space-evenly;
-        align-content: center;
-    }
+  .navbar {
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-    .navbar a {
-        padding-top: 10px;
-    }
+  .navbar nav {
+    font-size: 16px;
+    justify-content: space-evenly;
+    align-content: center;
+  }
 
-    .navbar .logo {
-        display: none;
-    }
+  .navbar a {
+    padding-top: 10px;
+  }
 
-    .intro {
-        flex-flow: column wrap;
-        font-size: 2em;
-    }
+  .navbar .logo {
+    display: none;
+  }
 
-    .blog-post1 {
-        flex-flow: column wrap;
-        align-items: center;
-    }
+  .intro {
+    flex-flow: column wrap;
+    font-size: 2em;
+  }
 
-    .blog-post2 {
-        flex-flow: column wrap;
-        align-items: center;
+  .blog-post1 {
+    flex-flow: column wrap;
+    align-items: center;
+  }
 
-    }
+  .blog-post2 {
+    flex-flow: column wrap;
+    align-items: center;
+  }
 
-    footer img {
-        width: 48px;
-        height: 48px;
-        padding-left: 20px;
-    }
-
+  footer img {
+    width: 48px;
+    height: 48px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
-    .navbar nav {
-        font-size: 16px;
-    }
+  .navbar nav {
+    font-size: 16px;
+  }
 }
