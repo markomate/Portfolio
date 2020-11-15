@@ -14,7 +14,7 @@ img {
 }
 
 p {
-  margin: 2px;
+  margin: 5px;
   text-decoration: none;
 }
 
@@ -48,6 +48,14 @@ p {
   text-decoration-color: white;
   color: white;
 }
+.nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-links div {
+  padding: 5px;
+}
 
 .navbar h1 {
   font-size: 24px;
@@ -77,6 +85,7 @@ p {
     rgb(255, 255, 255, 1)
   );
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .carousel-container {
@@ -103,7 +112,7 @@ p {
 
 .pixels {
   width: 100%;
-  margin-top: -15px;
+  margin-top: -17px;
 }
 
 .footer {
@@ -119,6 +128,7 @@ p {
 
 footer {
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 footer img {
@@ -153,7 +163,7 @@ footer img {
 }
 
 #photo-me {
-  width: 400px;
+  width: 500px;
   border-radius: 50%;
 }
 
@@ -200,18 +210,28 @@ footer img {
 #about {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  padding: 50px;
+  justify-content: space-evenly;
+  padding: 20px;
+  padding-top: 50px;
 }
 
 #about-title {
   display: flex;
   align-items: flex-end;
+  padding-right: 50px;
+}
+
+#about-photo {
+  padding-left: 50px;
 }
 
 #blog-title {
   color: white;
   padding-top: 20px;
+}
+
+#projects-title {
+  padding: 20px;
 }
 
 .blog-post1 {
@@ -268,22 +288,34 @@ footer img {
   width: 80%;
 }
 
-@media screen and (max-width: 812px) {
-  html {
-    min-width: 600px;
+/* Two column navbar for smaller devices */
+@media screen and (max-width: 600px) {
+  .nav-links {
+    padding: 5px;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}
+
+/* Optimization for mobile */
+@media screen and (max-width: 768px) {
+  #blog-verticle {
+    max-width: 300px;
+  }
+
+  #blog-horizontal {
+    max-width: 300px;
   }
 
   .navbar {
     justify-content: center;
     align-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .navbar nav {
     font-size: 16px;
-    justify-content: space-evenly;
-    align-content: center;
   }
 
   .navbar a {
@@ -312,15 +344,67 @@ footer img {
   footer img {
     width: 48px;
     height: 48px;
-    padding-left: 20px;
   }
 
   .title {
     text-align: center;
   }
+
+  #projects-title {
+    padding-top: 50px;
+    font-size: 32px;
+  }
 }
-@media screen and (max-width: 1025px) {
+
+/* Optimization for large screens*/
+@media screen and (min-width: 1921px) {
   .navbar nav {
     font-size: 16px;
+  }
+
+  .blog-post1 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .blog-post2 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .site-content {
+    font-size: 1.5em;
+  }
+
+  .intro {
+    font-size: 2em;
+  }
+
+  .pixels {
+    width: 100%;
+    margin-top: -25px;
+  }
+
+  #about {
+    justify-content: center;
+  }
+
+  #about-title {
+    align-items: flex-end;
+    padding-left: 200px;
+    padding-left: 200px;
+  }
+
+  #blog-verticle {
+    max-width: 500px;
+  }
+
+  #blog-horizontal {
+    max-width: 600px;
+  }
+
+  footer img {
+    width: 48px;
+    height: 48px;
   }
 }
