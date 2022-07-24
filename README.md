@@ -1,7 +1,5 @@
 # T1A2 - Portfolio
 
-## Portfolio website: [Link]
+## Portfolio website: [Link](https://thirsty-gates-72bbba.netlify.app/)
 
-## GitHub repo: [Link](https://github.com/markomate/MarkoCirkovic_T1A1)
-
-## Description:
+## Description: HTML and CSS portfolio by Marko.
